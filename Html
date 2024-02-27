@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Mapa da Região de Miguel Pereira</title>
+    <style>
+        /* Estilo para o contêiner do mapa */
+        #map {
+            height: 400px; /* Altura do mapa */
+            width: 100%; /* Largura do mapa */
+        }
+    </style>
+</head>
+<body>
+    <!-- Contêiner para exibir o mapa -->
+    <div id="map"></div>
+
+    <!-- Script para carregar a API do Google Maps e inicializar o mapa -->
+    <script>
+        var map;
+
+        function initMap() {
+            map = new google.maps.Map(document.getElementById('map'), {
+                center: {lat: -22.9068, lng: -43.1729}, // Centro do mapa (Rio de Janeiro)
+                zoom: 10 // Zoom inicial
+            });
+        }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async defer></script>
+</body>
+</html>

@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'DS-DIGII';
+    src: url('C:/Users/Public/Documents/fontes/DS-DIGII.TTF') format('truetype');
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #cfc1c1;
+}
+
+.clock {
+    font-family: 'Ds-DIGII', 'Courier New' , Courier , monospace;
+    font-size: 5em;
+    color: #ffffff;
+    text-shadow: 10px 8px 4px rgba(8, 8, 8, 0.5);
+    transition: all 0.5 ease;
+    position: absolute;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-50%, -50%);
+
+}
+
+button {
+    margin-top: 100px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #eee7e7;
+    color: rgb(32, 18, 230);
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+body {
+    margin: 5;
+    padding: 5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+    background-image: url('C:/Users/Public/Documents/plano de fundo/Rio de Janeiro.png');
+    background-size: cover;
+    background-position: center;
+}
